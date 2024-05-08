@@ -1,4 +1,4 @@
-# Name Sorter
+# Sortify
 
 ## Description
 This project is a lightweight application designed to collect a user's name, middle name (if applicable), and last name. Once entered, it offers a straightforward sorting functionality to organize the names alphabetically.
@@ -8,11 +8,11 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
 ```git bash
-  git clone https://github.com/your-username/FE-Assesment.git
+  git clone https://github.com/your-username/sortify.git
 ```
 2. Navigate to the project directory:
 ```git bash
-  cd FE-Assesment
+  cd sortify
 ```
 3. Install dependencies:
 ```git bash
