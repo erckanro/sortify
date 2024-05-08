@@ -1,6 +1,6 @@
 import { TextField } from "@mui/material";
 
-interface NameInputProps {
+interface INameInput {
   id: string;
   label: string;
   value: string;
@@ -16,7 +16,7 @@ const NameInput = ({
   onChange,
   placeholder,
   required = false,
-}: NameInputProps) => {
+}: INameInput) => {
   return (
     <TextField
       id={id}
@@ -27,6 +27,10 @@ const NameInput = ({
       value={value}
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
+      inputProps={{ style: { color: '#fff' } }}
+      InputLabelProps={{
+        style: { color: '#b2b2b2' }
+    }}
     />
   );
 };
