@@ -41,3 +41,4 @@ To run the project locally, follow these steps:
 - Vite
 - Typescipt
 - MUI
+- Toastify
